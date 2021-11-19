@@ -146,7 +146,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                        url="https://t.me/Rexie_Support"), InlineKeyboardButton(text="𝖴𝗉𝖽𝖺𝗍𝖾𝗌",
                                                                        url="https://t.me/Rexie_Support")
                                                                                  ],
-                                                                                   [InlineKeyboardButton(text="➕ADD NARUTO BOT TO YOUR GROUP➕",
+                                                                                   [InlineKeyboardButton(text="➕ADD NARUTO TO YOUR GROUP➕",
                                                                        url="t.me/{}?startgroup=true".format(bot.username))]]))
 
     else:
