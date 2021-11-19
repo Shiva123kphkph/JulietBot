@@ -139,14 +139,14 @@ def start(bot: Bot, update: Update, args: List[str]):
             update.effective_message.reply_photo(
                 TECHNO_IMG,
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
-                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🤝HELP🤝",
+                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="HELP 🥺",
                                                                        callback_data="help_back".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="🧑‍💻My Creator🧑‍💻",
-                                                                       url="t.me/shuhaibnc")], [InlineKeyboardButton(text="👥Juliet Support",
-                                                                       url="https://t.me/JulietSupport"), InlineKeyboardButton(text="📢Juliet News",
-                                                                       url="https://t.me/JulietNews")
+                                                                                   InlineKeyboardButton(text="𝖮𝗇𝗐𝖾𝗋",
+                                                                       url="t.me/OGGY123kph")], [InlineKeyboardButton(text="𝖲𝗎𝗉𝗉𝗈𝗋𝗍",
+                                                                       url="https://t.me/Rexie_Support"), InlineKeyboardButton(text="𝖴𝗉𝖽𝖺𝗍𝖾𝗌",
+                                                                       url="https://t.me/Rexie_Support")
                                                                                  ],
-                                                                                   [InlineKeyboardButton(text="ADD JULIET BOT TO YOUR GROUP",
+                                                                                   [InlineKeyboardButton(text="➕ADD NARUTO BOT TO YOUR GROUP➕",
                                                                        url="t.me/{}?startgroup=true".format(bot.username))]]))
 
     else:
