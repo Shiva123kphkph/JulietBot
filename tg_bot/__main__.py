@@ -26,9 +26,9 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 
 PM_START_TEXT = """
-**Hello {}, My Name is {}!** 
+<b>**Hello {}, My Name is {}!** 
 I am an **Ultimate**  group management bot.
-You can find the list of available commands with /help.
+You can find the list of available commands with</b> /help.
 
 """
 
@@ -139,7 +139,7 @@ def start(bot: Bot, update: Update, args: List[str]):
             update.effective_message.reply_photo(
                 TECHNO_IMG,
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
-                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="HELP 🥺",
+                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="𝖧𝖾𝗅𝗉",
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="𝖮𝗇𝗐𝖾𝗋",
                                                                        url="t.me/OGGY123kph")], [InlineKeyboardButton(text="𝖲𝗎𝗉𝗉𝗈𝗋𝗍",
